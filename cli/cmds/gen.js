@@ -169,7 +169,7 @@ module.exports = (args) => {
       }
       iosInfo['TSKConfiguration'] = {
         'TSKPinnedDomains': iosDomains,
-        'TSKSwizzleNetworkDelegates': true
+        'TSKSwizzleNetworkDelegates': false
       }
 
       // WRITE OUT FILE HERE
